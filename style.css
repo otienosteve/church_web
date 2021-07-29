@@ -1,0 +1,137 @@
+*{
+border:0;
+margin:0;
+
+}
+#cover{
+background-position:center;
+width:100vw;
+height:100vh;
+background-image:url("altar.png");
+background-repeat:no-repeat;
+}
+#overlay{
+background-color:0f0f0f;
+width:100%;
+height:100%;
+opacity:0.7;
+}
+.navbar #logo img{
+position:absolute;
+width:70px;
+height:70px;
+left:4px;
+top:4px;
+}
+.navbar #logo img:hover{
+color:#000;
+}
+.navbar{
+position:fixed;
+top:0px;
+height:15vh;
+width:100vw;
+}
+.navbar #logo{
+cursor:pointer;
+height:20vh;
+position:absolute;
+top:3px;
+left:4px;
+
+}
+.navbar #logo span{
+position:relative;
+top:60px;
+left:6px;
+color:#cfcfcf;
+font-family:helvetica;
+font-style:italic;
+font-size:10px;
+font-weight:bold;
+}
+.navbar #links{
+position:relative;
+left:900px;
+top:20px;
+}
+.navbar #links ul{
+display:inline-flex;
+list-style-type:none;
+}
+.navbar #links ul li{
+margin:9px;
+font-size:20px;
+padding:7px;
+transition: .3s;
+}
+.navbar #links ul li a{
+text-decoration:none;
+color:#fff;}
+.navbar #links ul a:hover{
+color:  #39e600;
+}
+.navbar #links ul li:hover{
+border:1px  #39e600 solid;
+border-radius:50px;
+}
+.bannertxt{
+position:relative;
+top:130px;
+font-size:30px;
+color:cfcfcf;
+text-align:center;
+}
+#cover .bannertxt h3{
+align-items:center;
+}
+.bannerbtn ul{
+    display:inline-flex;
+    padding:0;
+}
+.bannerbtn li{
+    list-style-type: none;
+    margin:30px;
+    cursor:pointer;
+}
+.bannerbtn li a{
+    text-decoration: none;
+    color:#ffffffe1;
+}
+.bannerbtn  #first{
+    background:transparent;
+    padding:7px;
+    border-radius:25px;
+    border:2px solid#39e600;
+    color:#39e600;
+}
+.bannerbtn  #first a{
+    color:#39e600;
+}
+.bannerbtn  #second{
+    border:2px solid #fcfcfc;
+    border-radius:25px;
+    padding:7px;
+
+}
+.bannerbtn  #second:hover{
+    
+    border:2px solid#39e600;
+    text-decoration:#39e600;
+}
+.bannerbtn  #second a:hover{
+    color:#39e600;
+}
+.bannerbtn  #first:hover{
+    background:transparent;
+  border:2px solid #fff;
+  transition: .5s;
+}
+.bannerbtn  #first a:hover{
+    color:#fff;
+    transition: .5s;
+}
+.about{
+    height:100vh;
+    width:100vw;
+}
