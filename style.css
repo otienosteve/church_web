@@ -135,3 +135,118 @@ align-items:center;
     height:100vh;
     width:100vw;
 }
+.about{
+    display:inline-block;
+    width:100vw;
+    height:100vh;
+    margin: auto;
+}
+.about-containers{
+    display:flex;
+width:100%;
+height:70%;
+}
+.about-right{
+   margin:auto;
+    width:48%;
+    height:100%;
+}
+.about-left{
+  margin:auto;
+width:48%;
+height:100%;
+left:0;
+}
+.about-head{
+ 
+    height:10%;
+   text-align: center;
+}
+.about-head h2{
+    font-family:ALGERIAN;
+    color:#023b02ee;
+    font-size: 40px;
+}
+.togglecolor{
+    position:fixed;
+    right:3px;
+    top:50%;
+    width:7%;
+    height:15%;
+    color:green;
+}
+#future{
+    background-color: green;
+}
+.about-right thead{
+    text-align: center;
+  align-self: center;
+}
+.about-right table{
+    border: 2px;
+    font-size: 170%;
+    font-family:Algerian;
+    margin:auto;
+}
+.about-right h3{
+    text-align:center;
+    font-family:Algerian;
+    margin:0;
+    font-size:30px;
+}
+.about-left h2{
+    font-family: ALGERIAN;
+    font-size:40px;
+    text-transform: capitalize;
+    margin:0;
+}
+.about-left p{
+    font-size:20px;
+    font-family: helvetica;
+}
+.about-right table #top{
+    text-align: center;
+}
+.about-left .more-btn a{
+    text-decoration: none;
+    color:green;
+    font-size: 30px;
+    border:2px solid green;
+    border-radius: 20px;
+    padding:7px;
+}
+.about-left .more-btn a:hover{
+    color:#000;
+    border:2px solid black;
+    transition-delay: .5s;
+    transition:.5s;
+}
+.separator{
+    width:100vw;
+    height:30vh;
+    background-image:  url(download.jpg);
+    background-repeat:no-repeat;
+    text-align:center;
+    font-size:35px;
+    margin-top:auto;
+    margin-bottom:auto;
+    background-attachment: fixed;
+} 
+
+.groups{
+    margin-top:10%;
+}
+.groups .groups-head h2{
+font-size: 40px;
+text-align:center;
+font-family:algerian;
+color:rgb(1, 34, 1);
+}
+.groups .first-list{
+    display:flex;
+    width:100vw;
+    height:50vh;
+}
+.groups .second-list{
+
+}
