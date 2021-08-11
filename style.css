@@ -1,7 +1,11 @@
 *{
 border:0;
 margin:0;
-
+text-decoration: none;
+text-align: center;
+}
+body{
+    background-color:#f4f4f6;
 }
 #cover{
 background-position:center;
@@ -9,6 +13,9 @@ width:100vw;
 height:100vh;
 background-image:url("altar.png");
 background-repeat:no-repeat;
+}
+.header{
+    border-bottom: 2px solid black;
 }
 #overlay{
 background-color:0f0f0f;
@@ -133,33 +140,41 @@ align-items:center;
     transition: .5s;
 }
 .about{
-    height:100vh;
-    width:100vw;
-}
-.about{
+    margin-top:35%;
     display:inline-block;
     width:100vw;
     height:100vh;
     margin: auto;
+    background-color: #f0f0f0;
 }
 .about-containers{
     display:flex;
-width:100%;
+width:87%;
 height:70%;
+margin:auto;
+box-shadow: 0 0 10px 7px rgb(0 0 0 / 25%);
+border-bottom:2px solid #000;
+border-right:2px solid #000;
+border-bottom-right-radius: 20px;
+border-top-left-radius: 20px;
 }
 .about-right{
    margin:auto;
-    width:48%;
-    height:100%;
+   width: 400px;
+   height: 100%;
+   border-left: 2px solid #0d0d0e
+  
 }
 .about-left{
-  margin:auto;
-width:48%;
-height:100%;
+  margin-left: 30px;
+  padding:30px;
+width:350px;
+height:350px;
 left:0;
+
 }
 .about-head{
- 
+    margin-top:100px;
     height:10%;
    text-align: center;
 }
@@ -167,6 +182,8 @@ left:0;
     font-family:ALGERIAN;
     color:#023b02ee;
     font-size: 40px;
+    position:relative;
+    top:-50px;
 }
 .togglecolor{
     position:fixed;
@@ -179,13 +196,14 @@ left:0;
 #future{
     background-color: green;
 }
+
 .about-right thead{
     text-align: center;
   align-self: center;
 }
 .about-right table{
     border: 2px;
-    font-size: 170%;
+    font-size: 135%;
     font-family:Algerian;
     margin:auto;
 }
@@ -193,17 +211,19 @@ left:0;
     text-align:center;
     font-family:Algerian;
     margin:0;
-    font-size:30px;
+    font-size:20px;
 }
 .about-left h2{
     font-family: ALGERIAN;
-    font-size:40px;
+    font-size:20px;
     text-transform: capitalize;
     margin:0;
+    
 }
 .about-left p{
     font-size:20px;
     font-family: helvetica;
+    margin-bottom:5%;
 }
 .about-right table #top{
     text-align: center;
@@ -211,10 +231,11 @@ left:0;
 .about-left .more-btn a{
     text-decoration: none;
     color:green;
-    font-size: 30px;
+    font-size: 20px;
     border:2px solid green;
     border-radius: 20px;
     padding:7px;
+   
 }
 .about-left .more-btn a:hover{
     color:#000;
@@ -225,15 +246,21 @@ left:0;
 .separator{
     width:100vw;
     height:30vh;
-    background-image:  url(download.jpg);
+    background-image:  url(separator.jpg);
     background-repeat:no-repeat;
     text-align:center;
-    font-size:35px;
-    margin-top:auto;
+    margin-top:15%;
     margin-bottom:auto;
+    border-top:2px solid black;
+    border-bottom: 2px solid black;;
     background-attachment: fixed;
 } 
-
+.separator h3{
+    position:relative;
+    top:30px;
+    color:#fcfcfcf8;
+    font-size:37px;
+}
 .groups{
     margin-top:10%;
 }
@@ -249,5 +276,5 @@ color:rgb(1, 34, 1);
     height:50vh;
 }
 .groups .second-list{
-
+color:#fff;
 }
