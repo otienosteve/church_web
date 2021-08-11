@@ -76,11 +76,12 @@ border:1px  #39e600 solid;
 border-radius:50px;
 }
 .bannertxt{
-position:relative;
+position:absolute;
 top:130px;
 font-size:30px;
-color:cfcfcf;
+color:#cfcfcf;
 text-align:center;
+width:100vw;
 }
 #cover .bannertxt h3{
 align-items:center;
