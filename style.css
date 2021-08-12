@@ -162,22 +162,24 @@ border-top-left-radius: 20px;
 }
 .about-right{
   position:relative;
-  left:15%;
-  top:6%;
+  left:-8%;
+  top:7%;
    width: 400px;
    height: 100%;
    align-self:flex-end;
 }
 hr{
     position: relative;
-    left:12%;
-    width:2;
-    transform: rotate(180deg);
-    background: #000;
+    left:1%;
+    top:49%;
+    width:30%;
+    height:2px;
+    transform: rotate(90deg);
+    background: rgb(2, 2, 2);
 }
 .about-left{
 padding:40px;
-width:500px;
+width:50%;
 height:350px;
 left:0;
 text-align:left;
@@ -220,7 +222,7 @@ text-align:left;
     text-align:center;
     font-family:Algerian;
     margin:0;
-    font-size:20px;
+    font-size:150%;
 }
 .about-left h2{
     font-family: ALGERIAN;
