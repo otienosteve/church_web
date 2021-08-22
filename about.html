@@ -10,20 +10,21 @@
 <body>
     <section class="about-header">
         <div class="about-head-overlay">
+
         <!---Beginning of navbar--->
-    <div class="navbar">
+        <div class="navbar" id="navbar">
         <div id="logo">
         <img src="logo.png">
         <span class="logotext">St. John XXIII</span>
         </div>
         <div id="links">
             <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Groups</a></li>
-        <li><a href="#">Administrator</a></li>
-        <li><a href="#">Word</a></li>
-         <li><a href="#">Contact</a></li>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="#">About</a></li>
+                         <li><a href="#">Groups</a></li>
+                         <li><a href="#">Administrator</a></li>
+                         <li><a href="#">Word</a></li>
+                         <li><a href="#">Contact</a></li>
 
          </ul>
         </div>
@@ -90,4 +91,15 @@
 </div>
 </section>
 </body>
+<script>
+    window.addEventListener('scroll',()=>{
+        console.log(scrollY)
+        if(scrollY>=70){
+
+            document.getElementById("navbar").style.backgroundColor="black"
+            document.getElementById("navbar").style.zIndex="1"
+        }
+    })
+    
+</script>
 </html>
