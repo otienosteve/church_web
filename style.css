@@ -222,6 +222,9 @@ text-align:left;
     font-family:Algerian;
     margin:auto;
 }
+.navbar .menu {
+    display:none;
+}
 .about-right h3{
     text-align:center;
     font-family:Algerian;
@@ -422,4 +425,139 @@ bottom:3%;
      height:100%;
     background: #04030e;
     opacity:.9;
+ }
+ @media only screen and (max-width: 360px) {
+
+     .navbar #links{
+z-index: +1;
+position:relative;
+display:none;
+left:25%;
+top:20px;
+}
+#overlay{
+    height:75vh;
+    }
+    #cover{
+        height:75vh;
+    }
+    #cover .bannertxt h3{
+        align-items:center;
+        font-size:20px;
+        }
+        .bannerbtn li{
+            font-size: 17px;
+            list-style-type: none;
+            margin:30px;
+            cursor:pointer;
+        }
+        .about-containers{
+            display:flex;
+  flex-direction: column;
+    }
+    .about-left{
+     
+        width:90%;
+        height:90%;
+        left:0;
+    }
+    .ft-overlay{
+        width:100%;
+        font: 20px;
+
+        display:flex;
+        flex-direction: column;
+        opacity:0.9;
+        justify-content: space-around;
+    }
+    .ft-overlay ul li{
+      font-size:12px;
+        }
+        .first-col, .second-col, .third-col {
+            width:90%;
+            margin:auto;
+        }
+        .about-left p {
+            font-size:12px;
+        }
+        .about-left{
+            text-align:center;
+            padding:2%;
+            margin:0;
+            height:60%
+        }
+        .about-head {
+            margin-top: 4%;
+        }
+        .about-head h2{
+            font-size:20px;
+        }
+        .about-left h2 {
+            font-size:16px;
+        }
+        .navbar .menu {
+            display:block;
+        }
+        .navbar .menu img{
+            width:60px;
+            height:60px;
+           position:absolute;
+           right:30px;
+           top:20px;
+         
+        }
+        .bannertxt{
+            top:28%;
+        }
+        .about-head h2 {
+            top:12%;
+        }
+        .about-left .more-btn a {
+            font-size:10px;
+        }
+        .divider {
+            display:none;
+        }
+        .about-right{
+            text-align: center;
+    top: 0%;
+    width: 90%;
+    height: 80%;
+        }
+        .about-right h3 {
+            font-size:16px;
+        }
+        .about-right table{
+            font-size:12px;
+        }
+        .about-containers{
+            height:80%;
+        }
+        .separator {
+            height:20vw;
+            font-size:20%;
+            background-image: url(image/misssal2.jpg);
+        }
+        .separator h3{
+            font-size:16px;
+            top:7%;
+            color:rgb(223, 217, 217);
+        }
+        .groups .groups-head h2 {
+            font-size:20px;
+        }
+        .groups .first-list  {
+            flex-direction:column;
+            justify-content: space-around;
+            align-content: space-around;
+        }
+        .first-list .first-cont {
+            width:80%;
+        }
+        .first-list .second-cont {
+            width:80%;
+        }
+        .first-list .third-cont{
+            width:80%;
+        }
  }
