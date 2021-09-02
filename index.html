@@ -16,17 +16,18 @@
         <img src="logo.png">
         <span class="logotext">St. John XXIII</span>
         </div>
-        <div class="menu">
+        
+        <div class="menu" id="pop">
             <img src="image/menu_icon.png"> 
         </div>
         <div id="links">
             <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Groups</a></li>
-        <li><a href="#">Administrator</a></li>
-        <li><a href="#">Word</a></li>
-         <li><a href="#">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="Groups.html">Groups</a></li>
+        <li><a href="administration.html">Administrator</a></li>
+        <li><a href="about.html">Word</a></li>
+         <li><a href="CWA.html">Contact</a></li>
 
          </ul>
         </div>
@@ -52,6 +53,20 @@
 <!----End of navbar-->
 </div>
 </section>
+<div id="links2" >
+    <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="administration.html">About</a></li>
+<li><a href="Groups.html">Groups</a></li>
+<li><a href="about.html">Administrator</a></li>
+<li><a href="word.html">Word</a></li>
+ <li><a href="CWA.html">Contact</a></li>
+
+ </ul>
+</div>
+<div class="cancel" id="cancl">
+    <img src="image/cancel-16.png" alt="">
+</div>
 <!----End of Body Section-->
 
 <!--Beginning of About section-->
@@ -238,11 +253,18 @@
 <script type="text/javascript">
 
 
-document.addEventListener(onclick,(navbar)=>{
+document.addEventListener('click',(navbar)=>{
     var nav= document.getElementByID("navbar")
-    nav.style.background="green"
-
+    nav.style.backgroundColor="green"
 }
 )
+document.getElementById("pop").addEventListener("click", ()=>{
+    document.getElementById("links2").style.display="block"
+    document.getElementById("cancl").style.display="block"
+})
+document.getElementById("cancl").addEventListener('click',()=>{
+    document.getElementById("links2").style.display="none"
+    document.getElementById("cancl").style.display="none"
+})
 </script>
 </html>
