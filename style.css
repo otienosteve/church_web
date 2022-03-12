@@ -2,6 +2,7 @@
   --main-color: #75a88f;
   --secondary-color: #000000;
   --my-white: #fefefe;
+  --milky-white: #c4c4c4;
 }
 * {
   border: 0;
@@ -248,9 +249,10 @@ tr:nth-child(even) {
   margin: 0;
 }
 .about-left p {
-  font-size: 20px;
+  font-size: 120%;
   font-family: helvetica;
   margin-bottom: 5%;
+  text-align: center;
 }
 .about-right table #top {
   text-align: center;
@@ -269,35 +271,33 @@ tr:nth-child(even) {
   transition-delay: 0.5s;
   transition: 0.5s;
 }
-.separator {
-  width: 100vw;
-  height: 30vh;
-  background-image: url(image/focus2.png);
-  background-repeat: no-repeat;
-  text-align: center;
-  margin-top: 10%;
-  margin-bottom: auto;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  background-attachment: fixed;
-}
-.separator h3 {
-  position: relative;
-  top: 30px;
-  color: rgb(13, 14, 13);
-  font-size: 37px;
-  font-weight: 1700;
-}
+
 .groups {
   margin-top: 8%;
   background: f4f4f6;
 }
 .groups .groups-head h2 {
-  font-size: 40px;
+  font-size: 300%;
   text-align: center;
   margin-bottom: 8%;
   font-family: algerian;
   color: rgb(1, 34, 1);
+}
+.groups h3 {
+  font-size: 130%;
+  margin-top: 5%;
+}
+.groups p {
+  margin: 3.3%;
+}
+.groups button {
+  background-color: inherit;
+  border: 2px solid var(--secondary-color);
+  width: 20%;
+  height: 7%;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: bold;
 }
 .groups .first-list {
   justify-content: space-evenly;
@@ -307,35 +307,45 @@ tr:nth-child(even) {
   margin-bottom: 3%;
 }
 .groups .second-list {
-  color: #fff;
+  color: var(--secondary-color);
   display: flex;
   justify-content: space-evenly;
   width: 100vw;
   height: 70vh;
 }
 .groups .first-cont {
-  width: 30%;
+  width: 25%;
   height: 100%;
-  background: green;
+  background: var(--milky-white);
+  border-radius: 4rem;
+  border-radius: 2rem;
+  overflow: hidden;
 }
 .first-cont img {
   width: 100%;
+  height: 50%;
 }
 .second-cont img {
   width: 100%;
+  height: 50%;
 }
 .third-cont img {
   width: 100%;
+  height: 50%;
 }
 .groups .second-cont {
-  width: 30%;
+  width: 25%;
   height: 100%;
-  background: green;
+  background: var(--milky-white);
+  border-radius: 2rem;
+  overflow: hidden;
 }
 .groups .third-cont {
-  width: 30%;
+  width: 25%;
   height: 100%;
-  background: green;
+  background: var(--milky-white);
+  border-radius: 2rem;
+  overflow: hidden;
 }
 .footer {
   margin-top: 12%;
@@ -368,13 +378,13 @@ tr:nth-child(even) {
   color: #fff;
 }
 .first-col {
-  width: 30%;
+  width: 25%;
   height: 80%;
   background: purple;
 }
 .second-col {
   background: purple;
-  width: 30%;
+  width: 25%;
   height: 80%;
 }
 .third-col {
