@@ -11,7 +11,7 @@
   text-align: center;
 }
 body {
-  background-color: #e2e2f3;
+  background-color: #f6f8fa;
 }
 #cover {
   background-position: center;
@@ -274,7 +274,7 @@ tr:nth-child(even) {
 
 .groups {
   margin-top: 8%;
-  background: f4f4f6;
+  background-color: #f6f8fa;
 }
 .groups .groups-head h2 {
   font-size: 300%;
