@@ -1,5 +1,5 @@
 :root {
-  --main-color: 81b29a;
+  --main-color: #75a88f;
   --secondary-color: #000000;
   --my-white: #fefefe;
 }
@@ -26,7 +26,7 @@ body {
   background-color: 0f0f0f;
   width: 100%;
   height: 100%;
-  opacity: 0.7;
+  opacity: 0.75;
 }
 .navbar #logo img {
   position: absolute;
@@ -84,9 +84,11 @@ body {
 .navbar #links ul li a {
   text-decoration: none;
   color: var(--main-color);
+  font-weight: bold;
 }
 .navbar #links ul a:hover {
   color: var(--my-white);
+  font-size: medium;
 }
 .navbar #links ul li:hover {
   border: 1px var(--my-white) solid;
@@ -152,20 +154,17 @@ body {
   margin-top: 35%;
   display: inline-block;
   width: 100vw;
-  height: 100vh;
+  height: 85vh;
   margin: auto;
-  background-color: #f0f0f0;
+  background-color: var(--main-color);
 }
 .about-containers {
   display: flex;
-  width: 87%;
+  width: 100%;
   height: 70%;
   margin: auto;
-  box-shadow: 0 0 10px 7px rgb(0 0 0 / 25%);
-  border-bottom: 2px solid #000;
-  border-right: 2px solid #000;
-  border-bottom-right-radius: 20px;
-  border-top-left-radius: 20px;
+  padding-top: 3%;
+  justify-content: space-around;
 }
 .about-right {
   position: relative;
@@ -228,6 +227,10 @@ body {
   font-size: 135%;
   font-family: Algerian;
   margin: auto;
+}
+tr:nth-child(even) {
+  background-color: var(--secondary-color);
+  color: var(--my-white);
 }
 .navbar .menu {
   display: none;
@@ -459,11 +462,13 @@ body {
   .about-containers {
     display: flex;
     flex-direction: column;
+    background-color: var(--main-color);
   }
   .about-left {
     width: 90%;
     height: 90%;
     left: 0;
+    color: inherit;
   }
   .ft-overlay {
     width: 100%;
