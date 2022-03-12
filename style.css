@@ -33,14 +33,13 @@ body {
 .navbar #logo img {
   position: absolute;
   width: 5%;
-  height: 70%;
-  left: 0;
-  top: 10%;
+  height: 65%;
+  left: 1%;
+  top: 13%;
 }
-.navbar #logo img:hover {
-  color: #000;
-}
+
 .navbar {
+  z-index: 4;
   position: fixed;
   top: 0px;
   display: flex;
