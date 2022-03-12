@@ -380,6 +380,10 @@ tr:nth-child(even) {
   width: 25%;
   height: 80%;
 }
+.second-col img {
+  width: 85%;
+  height: 100%;
+}
 .third-col {
   width: 30%;
   height: 80%;
