@@ -452,14 +452,36 @@ tr:nth-child(even) {
 }
 .priests {
   width: 100vw;
-  height: 70vh;
-  color: #75a88f;
+  height: 85vh;
+  color: #191b1a;
+  background-color: #d0e2cd;
 }
 .priests .priest-heading h3 {
+  box-sizing: border-box;
   color: black;
   font-size: var(--heading);
   font-family: algerian;
-  margin-top: 4.3%;
+  margin-top: 7%;
+  margin-bottom: 3%;
+}
+.priests .priest-single {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.priests .priest-single .para-cont {
+  width: 40%;
+  margin-top: 5%;
+}
+.priests .priest-single .img-cont {
+  width: 40%;
+  height: 100%;
+  margin-left: 2%;
+}
+.priests .priest-single .img-cont img {
+  width: 100%;
+  height: 100%;
 }
 .priest-container {
   display: flex;
