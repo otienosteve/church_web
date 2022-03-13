@@ -258,7 +258,7 @@
 </div>
 </div>
 <div class="bottom-col">
-<p>Website Designed, built and Powered by <a href="smilingmachine.com">The Smiling Machine</a></p>
+<p>Copyright <span id="year"> </span> Website Designed, built and Powered by <a href="smilingmachine.com">The Smiling Machine</a></p>
 </div>
 </section>
 
@@ -269,7 +269,9 @@
 
 </body>
 <script type="text/javascript">
-
+let year= new Date()
+year=year.getFullYear();
+document.getElementById('year').textContent=year
 
 document.addEventListener('click',(navbar)=>{
     var nav= document.getElementByID("navbar")

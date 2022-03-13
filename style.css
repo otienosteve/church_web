@@ -1,5 +1,5 @@
 :root {
-  --main-color: #75a88f;
+  --main-color: #373962;
   --secondary-color: #000000;
   --my-white: #fefefe;
   --milky-white: #c4c4c4;
@@ -189,11 +189,12 @@ body {
   background: rgb(2, 2, 2);
 }
 .about-left {
-  padding: 40px;
-  width: 50%;
+  overflow: hidden;
+  padding: 4%;
+  width: 40%;
   height: 350px;
   left: 0;
-  text-align: left;
+  text-align: center;
 }
 .about-head {
   margin-top: 100px;
@@ -251,7 +252,6 @@ tr:nth-child(even) {
 .about-left p {
   font-size: 120%;
   font-family: helvetica;
-  margin-bottom: 5%;
   text-align: center;
 }
 .about-right table #top {
@@ -273,13 +273,13 @@ tr:nth-child(even) {
 }
 
 .groups {
-  margin-top: 8%;
+  margin-top: 4%;
   background-color: #f6f8fa;
 }
 .groups .groups-head h2 {
   font-size: 300%;
   text-align: center;
-  margin-bottom: 8%;
+  margin-bottom: 4%;
   font-family: algerian;
   color: rgb(1, 34, 1);
 }
@@ -307,6 +307,7 @@ tr:nth-child(even) {
   margin-bottom: 3%;
 }
 .groups .second-list {
+  margin-top: 6%;
   color: var(--secondary-color);
   display: flex;
   justify-content: space-evenly;
@@ -450,7 +451,7 @@ tr:nth-child(even) {
   width: 100vw;
   height: 85vh;
   color: #191b1a;
-  background-color: #d0e2cd;
+  background-color: var(--main-color);
 }
 .priests .priest-heading h3 {
   box-sizing: border-box;
