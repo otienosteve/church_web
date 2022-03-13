@@ -259,9 +259,9 @@ tr:nth-child(even) {
 }
 .about-left .more-btn a {
   text-decoration: none;
-  color: green;
+  color: var(--secondary-color);
   font-size: 20px;
-  border: 2px solid green;
+  border: 2px solid var(--secondary-color);
   border-radius: 20px;
   padding: 7px;
 }
