@@ -1,15 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 :root {
-  --main-color: #373962;
+  --main-color: #4a0d67;
   --secondary-color: #000000;
   --my-white: #fefefe;
   --milky-white: #c4c4c4;
   --heading: 300%;
+  --pop: poppins;
 }
 * {
   border: 0;
   margin: 0;
   text-decoration: none;
   text-align: center;
+}
+p {
+  font-family: poppins;
+  font-size: 90%;
+  color: var(--secondary-color);
+}
+h4 {
+  font-family: poppins;
+  color: var(--milky-white);
 }
 body {
   background-color: #f6f8fa;
@@ -51,16 +62,7 @@ body {
 .navbar #logo {
   cursor: pointer;
 }
-.navbar #logo span {
-  position: relative;
-  top: 50%;
-  left: 180%;
-  color: #cfcfcf;
-  font-family: helvetica;
-  font-style: italic;
-  font-size: 10px;
-  font-weight: bold;
-}
+
 .navbar #links {
   z-index: +1;
   position: relative;
@@ -105,52 +107,11 @@ body {
 }
 #cover .bannertxt h3 {
   align-items: center;
-  color: var(--main-color);
+  color: var(--milky-white);
+  font-family: poppins;
+  font-size: 125%;
 }
-.bannerbtn ul {
-  display: inline-flex;
-  padding: 0;
-}
-.bannerbtn li {
-  list-style-type: none;
-  margin: 30px;
-  cursor: pointer;
-}
-.bannerbtn li a {
-  text-decoration: none;
-  color: #ffffffe1;
-}
-.bannerbtn #first {
-  background: transparent;
-  padding: 7px;
-  border-radius: 25px;
-  border: 2px solid#39e600;
-  color: #39e600;
-}
-.bannerbtn #first a {
-  color: #39e600;
-}
-.bannerbtn #second {
-  border: 2px solid #fcfcfc;
-  border-radius: 25px;
-  padding: 7px;
-}
-.bannerbtn #second:hover {
-  border: 2px solid#39e600;
-  text-decoration: #39e600;
-}
-.bannerbtn #second a:hover {
-  color: #39e600;
-}
-.bannerbtn #first:hover {
-  background: transparent;
-  border: 2px solid #fff;
-  transition: 0.5s;
-}
-.bannerbtn #first a:hover {
-  color: #fff;
-  transition: 0.5s;
-}
+
 .about {
   margin-top: 35%;
   display: inline-block;
@@ -232,7 +193,7 @@ body {
 }
 tr:nth-child(even) {
   background-color: var(--secondary-color);
-  color: var(--my-white);
+  color: var(--milky-white);
 }
 .navbar .menu {
   display: none;
@@ -251,7 +212,7 @@ tr:nth-child(even) {
 }
 .about-left p {
   font-size: 120%;
-  font-family: helvetica;
+  font-family: poppins;
   text-align: center;
 }
 .about-right table #top {
