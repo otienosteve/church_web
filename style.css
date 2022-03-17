@@ -311,7 +311,7 @@ tr:nth-child(even) {
 }
 .footer {
   width: 100vw;
-  height: 70vh;
+  height: 50vh;
 }
 .ft-overlay {
   width: 100%;
@@ -320,7 +320,7 @@ tr:nth-child(even) {
   display: flex;
   opacity: 0.9;
   justify-content: space-between;
-  padding-top: 5%;
+  padding-top: 2%;
   text-align: start;
 }
 .ft-overlay ul {
