@@ -397,14 +397,16 @@ tr:nth-child(even) {
   height: auto;
   width: 100%;
   background-color: #53599a;
+  box-sizing: border-box;
 }
 .centres .center-t {
   display: flex;
   justify-content: space-around;
   width: 100%;
   height: 40vh;
-  margin: 5%;
+  margin: auto;
   background-color: #53599a;
+  overflow: hidden;
 }
 .centres .center-t .center-img {
   width: 30%;
@@ -415,6 +417,16 @@ tr:nth-child(even) {
 }
 .centres .center-t .center-text {
   width: 55%;
+  height: 70%;
+  margin: auto;
+}
+.centres h3 {
+  color: var(--milky-white);
+  font-size: 250%;
+}
+.centres .center-t .center-text h3 {
+  color: var(--milky-white);
+  font-size: 160%;
 }
 .bottom-col {
   background-color: #000;
