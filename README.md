@@ -1,4 +1,4 @@
-# church_web
+# st.John XXIII CATHOLIC CHURCH RABUOR
 
 # this website is being designed for ST.JOHN XXIII CATHOLIC CHURCH
 
