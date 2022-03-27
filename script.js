@@ -11,7 +11,9 @@ document.getElementById("pop").addEventListener("click", ()=>{
     document.getElementById("links2").style.display="block"
     document.getElementById("cancl").style.display="block"
 })
-document.getElementById("cancl").addEventListener('click',()=>{
-    document.getElementById("links2").style.display="none"
-    document.getElementById("cancl").style.display="none"
-})
+// document.getElementById("cancl").addEventListener('click',()=>{
+//     document.getElementById("links2").style.display="none"
+//     document.getElementById("cancl").style.display="none"
+// })
+const carouselItems=document.querySelectorAll('div.preist-info')
+

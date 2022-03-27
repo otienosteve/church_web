@@ -585,7 +585,28 @@ tr:nth-child(even) {
   .about-left h2 {
     font-size: 16px;
   }
-
+  .former-priests {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .former-priests .left-p {
+    width: 23%;
+    height: 70%;
+  }
+  .former-priests .center-p {
+    width: 30%;
+    height: 80%;
+  }
+  .former-priests .right-p {
+    width: 23%;
+    height: 70%;
+  }
+  .preist-info img {
+    height: 20px;
+  }
   .navbar #logo {
     cursor: pointer;
     height: 14vh;
