@@ -44,60 +44,56 @@ body {
   opacity: 0.75;
 }
 .navbar #logo img {
-  position: absolute;
-  width: 4%;
-  height: 65%;
-  left: 3%;
-  top: 13%;
+ width: 100%;
+ height:100%;
 }
 
 .navbar {
-  z-index: 4;
-  position: fixed;
-  top: 0px;
   display: flex;
-  height: 12vh;
+  justify-content: space-between;
+  height: 15vh;
   width: 100vw;
-  align-items: center;
-  background-color: var(--secondary-color);
+  /* align-items: center; */
+  /* background-color: var(--secondary-color); */
+  background-color: #0e1d1b
 }
 .navbar #logo {
+  margin-top: 1%;
+  margin-left:1%;
   cursor: pointer;
+  width:7%;
+  height:70%;
 }
 
 .navbar #links {
-  z-index: +1;
-  position: relative;
-  left: 25%;
-  top: 20px;
+ width: inherit;
+ height:100%;
 }
 .navbar #links ul {
   display: inline-flex;
   list-style-type: none;
-  align-self: flex-start;
-  padding-left: 0;
-  position: relative;
-  top: -20;
-  left: 65%;
+
 }
 .navbar #links ul li {
-  margin: 4%;
-  font-size: 20px;
-  padding: 2%;
+  margin: 4% 2% 2% 2%;
+  font-size: 150%;
+
   transition: 0.3s;
 }
 .navbar #links ul li a {
   text-decoration: none;
   color: var(--main-color);
   font-weight: bold;
+  padding: 2%;
 }
 .navbar #links ul a:hover {
   color: var(--my-white);
-  font-size: medium;
+  border: 1px var(--my-white) solid;
+  border-radius: 4rem;
+  /* font-size: medium; */
 }
 .navbar #links ul li:hover {
-  border: 1px var(--my-white) solid;
-  border-radius: 50px;
+ 
 }
 .bannertxt {
   position: absolute;
@@ -120,7 +116,8 @@ body {
   width: 100vw;
   height: 85vh;
   margin: auto;
-  background-color: var(--main-color);
+  /* background-color: var(--main-color); */
+  background-color: #091816;
 }
 .about-containers {
   display: flex;
