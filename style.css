@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 :root {
-  --main-color: #004e98;
+  --main-color: #81B29A;
   --secondary-color: #000000;
   --my-white: #fefefe;
-  --milky-white: #c0c0c0;
+  --milky-white: #81B29A;
   --heading: 300%;
   --pop: poppins;
   --nav-links: ;
@@ -51,18 +51,18 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  height: 15vh;
+  height: 12vh;
   width: 100vw;
   /* align-items: center; */
   /* background-color: var(--secondary-color); */
-  background-color: #0e1d1b
+  background-color: #000000
 }
 .navbar #logo {
   margin-top: 1%;
   margin-left:1%;
   cursor: pointer;
-  width:7%;
-  height:70%;
+  width:5%;
+  height:60%;
 }
 
 .navbar #links {
@@ -82,7 +82,7 @@ body {
 }
 .navbar #links ul li a {
   text-decoration: none;
-  color: var(--main-color);
+  color: var(--milky-white);
   font-weight: bold;
   padding: 2%;
 }
@@ -117,7 +117,7 @@ body {
   height: 85vh;
   margin: auto;
   /* background-color: var(--main-color); */
-  background-color: #091816;
+  background-color: #81B29A;
 }
 .about-containers {
   display: flex;
@@ -474,7 +474,7 @@ tr:nth-child(even) {
   width: 100vw;
   height: 85vh;
   color: #191b1a;
-  background-color: var(--main-color);
+  background-color:#81B29A
 }
 .priests .priest-heading h3 {
   box-sizing: border-box;
