@@ -22,7 +22,7 @@ p {
 }
 h4 {
   font-family: poppins;
-  color: var(--milky-white);
+  color: var(--secondary-color);
 }
 body {
   background-color: #f6f8fa;
@@ -53,9 +53,7 @@ body {
   justify-content: space-between;
   height: 12vh;
   width: 100vw;
-  /* align-items: center; */
-  /* background-color: var(--secondary-color); */
-  background-color: #000000
+  background-color: #000000;
 }
 .navbar #logo {
   margin-top: 1%;
@@ -66,17 +64,20 @@ body {
 }
 
 .navbar #links {
- width: inherit;
- height:100%;
+  overflow:hidden;
+ width: 65%;
+ height:inherit;
 }
 .navbar #links ul {
+ width:100%;
   display: inline-flex;
   list-style-type: none;
 
 }
 .navbar #links ul li {
-  margin: 4% 2% 2% 2%;
-  font-size: 150%;
+ 
+ margin: 2%;
+  font-size: 4vh;
 
   transition: 0.3s;
 }
@@ -84,16 +85,13 @@ body {
   text-decoration: none;
   color: var(--milky-white);
   font-weight: bold;
-  padding: 2%;
 }
 .navbar #links ul a:hover {
   color: var(--my-white);
   border: 1px var(--my-white) solid;
   border-radius: 4rem;
+  padding: 7%;
   /* font-size: medium; */
-}
-.navbar #links ul li:hover {
- 
 }
 .bannertxt {
   position: absolute;
@@ -122,16 +120,14 @@ body {
 .about-containers {
   display: flex;
   width: 100%;
-  height: 70%;
+  height: 100%;
   margin: auto;
   padding-top: 3%;
   justify-content: space-around;
 }
 .about-right {
-  position: relative;
-  left: -8%;
-  top: 7%;
-  width: 400px;
+
+  width: 40%;
   height: 100%;
   align-self: flex-end;
 }
@@ -150,10 +146,9 @@ body {
 } */
 .about-left {
   overflow: hidden;
-  padding: 4%;
-  width: 40%;
-  height: 350px;
-  left: 0;
+  width: 45%;
+  height: 100%;
+  align-self: flex-start;
   text-align: center;
 }
 .about-head {
@@ -203,9 +198,9 @@ tr:nth-child(even) {
   margin: 0;
   font-size: 150%;
 }
-.about-left h2 {
+.about-left h3 {
   font-family: ALGERIAN;
-  font-size: 150%;
+  font-size: 200%;
   text-transform: capitalize;
   margin: 0;
 }
@@ -217,7 +212,11 @@ tr:nth-child(even) {
 .about-right table #top {
   text-align: center;
 }
+.about-left .more-btn{
+  margin-top: 4%;
+}
 .about-left .more-btn a {
+
   text-decoration: none;
   color: var(--secondary-color);
   font-size: 20px;
@@ -233,8 +232,9 @@ tr:nth-child(even) {
 }
 
 .groups {
-  margin-top: 4%;
-  background-color: #f6f8fa;
+  /* margin-top: 4%; */
+  padding:5% 0 5% 0;
+  background-color: #d1d4d7;
 }
 .groups .groups-head h2 {
   font-size: 300%;
@@ -245,10 +245,10 @@ tr:nth-child(even) {
 }
 .groups h3 {
   font-size: 130%;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 .groups p {
-  margin: 3.3%;
+  margin: 0.3vh;
 }
 .groups button {
   background-color: inherit;
@@ -341,7 +341,7 @@ tr:nth-child(even) {
   height: 80%;
 }
 .second-col img {
-  width: 65%;
+  width: 75%;
   height: 100%;
   cursor: pointer;
 }
@@ -481,8 +481,8 @@ tr:nth-child(even) {
   color: black;
   font-size: var(--heading);
   font-family: algerian;
-  margin-top: 7%;
-  margin-bottom: 3%;
+  /* margin-top: 7%;
+  margin-bottom: 3%; */
 }
 .priests .priest-single {
   width: 100%;
@@ -492,7 +492,7 @@ tr:nth-child(even) {
 }
 .priests .priest-single .para-cont {
   width: 40%;
-  margin-top: 5%;
+  margin-top: 0%;
 }
 .priests .priest-single .img-cont {
   width: 40%;
