@@ -4,6 +4,7 @@
   --secondary-color: #000000;
   --my-white: #fefefe;
   --milky-white: #81B29A;
+  --dark-two: #81a65b;
   --heading: 300%;
   --pop: poppins;
   --nav-links: ;
@@ -359,16 +360,14 @@ tr:nth-child(even) {
 
   opacity: 0.9;
   width: 100vw;
-  height: 40vh;
+  height: 30vh;
   text-align: center;
   border-bottom: 2px solid #000;
 }
 .about-header p {
-  position: absolute;
-  top: 28%;
-  left: 32%;
+ 
   color: #fff;
-  font-size: 190%;
+  font-size: 190%; 
 }
 .about-consolata {
   display: flex;
@@ -376,25 +375,29 @@ tr:nth-child(even) {
   width: 100vw;
   justify-content: space-around;
   padding: 3%;
-  background-color: var(--main-color);
+  background-color: var(--dark-two);
   box-sizing: border-box;
   /* margin-bottom: 1%; */
 }
 .consolata-pic {
   overflow: hidden;
-  width: 37%;
-  border-radius: 1rem;
+  width: 40%;
+  /* border-radius: 1rem; */
+}
+.consolata-pic img {
+width:100%;
+height:100%;
 }
 .former-priests {
   width: 100vw;
   height: 50vw;
 }
 .consolata-text {
-  width: 60%;
+  width: 55%;
   overflow: hidden;
 }
 .consolata-text h2 {
-  color: var(--milky-white);
+  color: var(--my-white);
   font-size: 170%;
 }
 .centres {
@@ -466,6 +469,16 @@ tr:nth-child(even) {
   height: 100%;
   background: #04030e;
   opacity: 0.9;
+  display: flex;
+  justify-content: center;
+}
+.about-head-overlay .small-banner-text{
+width:50%;
+text-align:center;
+display:flex;
+justify-content: center;
+align-items: center;
+
 }
 .small-menu {
   display: none;
