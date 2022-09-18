@@ -18,7 +18,7 @@ document.getElementById("pop").addEventListener("click", ()=>{
 const carouselItems=document.querySelectorAll('div.preist-info')
 const priestCont=document.querySelectorAll(".former-priest-cont")
 // console.log(priestCont)
-priestCont[2].style.height="100%"
+// priestCont[2].style.height="100%"
 
 
 function Clear(){
@@ -32,17 +32,22 @@ let right=document.querySelector('.right')
 let main=document.querySelector('.main-priest')
 console.log(left,right,main)
 setInterval(()=>{
-    clear()
+    Clear()
  appendImages()
 },3000)
-
+const track=0
 function appendImages(){
-    for(var f=0; f<=priestCont.length-1;f++){
-        console.log(f)
-        priestCont[f].style.display='block'
-       
-left.append(priestCont[f])
+    if (track===priestCont.length-1){
+        track=0
+    }
+  
+        priestCont[track].style.display='block'
+        priestCont[track+1].style.display='block'
+        priestCont[track+2].style.display='block'
+    left.append(priestCont[track])   
+main.append(priestCont[track+1])
+right.append(priestCont[track+2])
 // main.append(priestCont[f])
 // right.append(priestCont[f])
-    }
+    
 }
