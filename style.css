@@ -407,11 +407,13 @@ height:100%;
   height: 90%;
   width:100%;
 }
-.former-priests h3{
-position:relative;
+.former-priests-head {
+  font-size: 200%;
+  font-family: var(--pop);
+/* position:relative;
 left:45%;
 top:-30%;
-width:12;
+width:12; */
 
 
 }
