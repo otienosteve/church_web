@@ -16,4 +16,3 @@ document.getElementById("pop").addEventListener("click", ()=>{
 //     document.getElementById("cancl").style.display="none"
 // })
 const carouselItems=document.querySelectorAll('div.preist-info')
-
