@@ -417,6 +417,37 @@ width:12; */
 
 
 }
+.group-carousel {
+
+  width:100vw;
+  height:80vh;
+  overflow: hidden;
+  
+}
+.group-carousel .carousel-item .carousel-overlay{
+  position: relative;
+  top:-100%;
+  z-index: +5;
+  background-color: rgb(12, 13, 12);
+  width:100%;
+  height:100%;
+  opacity: 0.6;
+}
+.group-carousel .left{
+  position:relative;
+  width:20%;
+ 
+}
+.group-carousel  .right{
+  position:relative;
+  width:20%;
+
+
+}
+.group-carousel .carousel-item{
+  width:100%;
+  height:100%;
+}
 .former-priests .left{
   height: 80%;
   width:100%;
@@ -426,6 +457,10 @@ width:12; */
   height: 80%;
   width:100%;
 
+}
+.group-carousel .carousel-item img{
+  width: 100%; 
+  height:90%;
 }
 
 .former-priests .former-priest-cont{
