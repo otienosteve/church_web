@@ -391,7 +391,33 @@ height:100%;
 }
 .former-priests {
   width: 100vw;
-  height: 50vw;
+  height: 27vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.former-priests .main-priest{
+  height: 90%;
+  width:100%;
+}
+.former-priests .left{
+  height: 80%;
+  width:100%;
+
+}
+.former-priests .right{
+  height: 80%;
+  width:100%;
+
+}
+
+.former-priests .former-priest-cont{
+  height: 80%;
+  width:100%;
+}
+.former-priests .former-priest-cont img{
+  height: 90%;
+  width:100%;
 }
 .consolata-text {
   width: 55%;
