@@ -45,6 +45,7 @@
         <section class="readings">
             <div class="reading-day"></div>
             <div class="feast"></div>
+            <div class="color"></div>
             
 
         </section>
@@ -102,7 +103,12 @@ let days=['Sunday','Monday','Tuesday','Wednesday',"Thursday",'Friday','Saturday'
 let months=['January','February','March','April','May','June','July','August','September','October','Novenber','December']
 let read=document.querySelector('.reading-day').textContent=`${days[day.getDay()]} ${day.getDate()} ${months[day.getMonth()]} ${day.getFullYear()} `
 // .textContent="okay"
-fetch(url).then(res=>res.json()).then(data=>console.log(data))
 let feastday=document.querySelector('.feast')
+let color=document.querySelector('.color')
+fetch('http://calapi.inadiutorium.cz/api/v0/en/calendars/default/today').then(res=>res.json()).then(data=>{
+    feastday.textContent=data.celebrations[0].title
+    color.textContent=`Color - ${data.celebrations[0].colour}`
+    console.log(data)})
+
 </script>
 </html>

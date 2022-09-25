@@ -615,17 +615,28 @@ width:100vw;
 height:100vh;
 background-color: var(--main-color);
 display: flex;
-justify-content: center;
+/* justify-content: center; */
+flex-direction: column;
 
 }
 .reading-day{
 font-size: 170%;
 color:#F0f0f0;
 font-family: var(--pop);
+padding-top: 2%;
+}
+.feast{
+  font-size: 170%;
+color:#F0f0f0;
+font-family: var(--pop);
 padding-top: 3%;
-
-
-
+}
+.color{
+  font-size: 170%;
+color:#F0f0f0;
+font-family: var(--pop);
+padding-top: 3.5%;
+text-transform: capitalize;
 }
 .priests .priest-single {
   width: 100%;
