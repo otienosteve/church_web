@@ -610,6 +610,23 @@ align-items: center;
   /* margin-top: 7%;
   margin-bottom: 3%; */
 }
+.readings {
+width:100vw;
+height:100vh;
+background-color: var(--main-color);
+display: flex;
+justify-content: center;
+
+}
+.reading-day{
+font-size: 170%;
+color:#F0f0f0;
+font-family: var(--pop);
+padding-top: 3%;
+
+
+
+}
 .priests .priest-single {
   width: 100%;
   height: 70%;

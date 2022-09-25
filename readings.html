@@ -4,9 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
     <title>Daily Readings</title>
 </head>
 <body>
+    <div class="navbar">
+        <div id="logo">
+        <img src="res/logo.png">
+       
+        </div>
+        
+        <div class="menu" id="pop">
+            <img src="image/menu_icon.png"> 
+        </div>
+        <div id="links">
+            <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="Groups.html">Groups</a></li>
+        <li><a href="administration.html">Administrator</a></li>
+        <li><a href="about.html">Word</a></li>
+         <li><a href="CWA.html">Contact</a></li>
+    
+         </ul>
+        </div>
+        
+    
+        </div> 
+        <section class="about-header">
+            <div class="about-head-overlay">
+    
+            
+        <!--End of navbar-->
+    
+    <div class="small-banner-text"><p>/ Daily Readings </p> </div>
+    
+    </div>
+        </section>
+        <section class="readings">
+            <div class="reading-day"></div>
+            <div class="feast"></div>
+            
+
+        </section>
+
+
+
+
+
+
+        
+
+<!--Beggining of Footer section-->
+<section class="footer">
+
+    <div class="ft-overlay">
+       
+    <div class="first-col">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="groups.html">Groups</a></li>
+        <li><a href="word.html">Word</a></li>
+        <li><a href="something.html">Something</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    
+    </div>
+    <div class="second-col">
+       <img src="res/Consolata.png" alt="" srcset="">
+    </div>
+    <div class="third-col">
+        
+            <ul>
+            <li><a href="something.html" title="archdiocese of Kisumu Website">ARCHDIOCESE OF KISUMU</a></li>
+            <li><a href="word.html" title="Kenya Confrence of Catholic Bishops">KCCB</a></li>
+              
+            <li><a href="contact.html" title="Uzima Univertsity website">UZIMA UNIVERSITY</a></li>
+            <li><a href="index.html" title="Letters from the Pope">PAPAL ENCYCLICALS</a></li>
+            <li><a href="about.html" title="International News Catholic website">CATHOLIC NEWS AGENCY</a></li>
+            <li><a href="groups.html" title=" United states Confrence of Catholic Bishops">USCCB</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="bottom-col">
+    <p>Copyright <span id="year"> </span> Website Designed, built and Powered by <a href="smilingmachine.com">The Smiling Machine</a></p>
+    </div>
+    </section>
     
 </body>
+<script>
+
+
+let day=new Date()
+let days=['Sunday','Monday','Tuesday','Wednesday',"Thursday",'Friday','Saturday']
+let months=['January','February','March','April','May','June','July','August','September','October','Novenber','December']
+let read=document.querySelector('.reading-day').textContent=`${days[day.getDay()]} ${day.getDate()} ${months[day.getMonth()]} ${day.getFullYear()} `
+// .textContent="okay"
+fetch(url).then(res=>res.json()).then(data=>console.log(data))
+let feastday=document.querySelector('.feast')
+</script>
 </html>
